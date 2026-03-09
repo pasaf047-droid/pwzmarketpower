@@ -1,0 +1,21 @@
+<script>
+
+function verificarKey(){
+
+var key = document.getElementById("key").value;
+
+if(key === "pwz2013"){
+
+document.getElementById("download").style.display = "block";
+
+alert("Download liberado");
+
+}else{
+
+alert("KEY inválida");
+
+}
+
+}
+
+</script>
